@@ -1,4 +1,4 @@
-#Github.com/
+#Github.com/Vasusen-code
 
 from pyrogram import Client
 
@@ -12,12 +12,12 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+API_ID = 29409646
+API_HASH = "a69d0340a520c1913c517bea143a3de7"
+BOT_TOKEN = "5682083705:AAHHEc78t-XJUKPMba4CIRc4C1by-GH9lxE"
+SESSION = "AQHAwW4AMoDjbdUqKkBCEwg8Dcrn9ShRffg3FDV0_nogYHlHH0pu-Q859e1-YfDzmc5VGGbEk9RqSqEV143wP4NsnsXe3bsVgLki3NbvvpfwU9_SHxupot5AXH050oxpH76R3b2Y6-D-RcLZaDMwpiDM6htEHAlI1xDit9ew3nnsFbGdeKwwTnYVA1P_GdIP3yEvvlR1hkEvFkvKyVSAoUkoElBHHLyw_vHA4dtGgCAt9IZbdWdG5qUQ2PHWttBcs3otU5DTw6Pk_tuE80oDjxAj8yOaBYPETX0Ts6nTJSmLV2szo7uNVK-g5a0Rhvuez_hGxQdQ1MSpZQ_JRKT722Qw7WIojAAAAAFerw5dAA"
+FORCESUB = "SK_MoviesOffl"
+AUTH = 5883498077
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
